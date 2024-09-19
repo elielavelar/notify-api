@@ -4,6 +4,8 @@ export interface INotification {
   link: string;
   level: string;
   type: string;
+  applicationId: string;
+  userId: string;
 }
 export interface INotificationList {
   items: INotification[];

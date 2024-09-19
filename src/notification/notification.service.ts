@@ -17,6 +17,7 @@ export class NotificationService {
   ) {}
 
   create(_createNotificationDto: CreateNotificationDto) {
+    console.log('Performing query: create');
     console.table(_createNotificationDto);
     return this.notificationModel.create(_createNotificationDto);
   }

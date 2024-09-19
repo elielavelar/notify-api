@@ -10,7 +10,7 @@ import {
 @Module({
   imports: [
     MongooseModule.forFeature([
-      { name: Notification.name , schema: NotificationSchema },
+      { name: Notification.name, schema: NotificationSchema },
     ]),
   ],
   controllers: [NotificationController],
